@@ -1,0 +1,33 @@
+{
+  "name": "spoon",
+  "version": "1.0.0",
+  "description": "my spoon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kristopp/Forkify-learning-WebApp"
+  },
+  "author": "Kristo Palu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.1",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.0",
+    "axios": "^0.18.0",
+    "fraction.js": "^4.0.12",
+    "fractional": "^1.0.0",
+    "uniqid": "^5.0.3"
+  }
+}
